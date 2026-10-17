@@ -44,7 +44,7 @@ export default function Home() {
 
       <main className="container">
         <section className="hero">
-          <p className="eyebrow">Bonjour, je suis</p>
+          <p className="eyebrow">Bienvenue, je suis</p>
           <h1>Meryem El Heni</h1>
           <p className="subtitle">
             Étudiante en Master DevOps &amp; Cloud, passionnée par
