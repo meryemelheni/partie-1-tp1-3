@@ -1,0 +1,9 @@
+---
+# TODO : adapter ces valeurs
+app_repo: "https://github.com/meryemelheni/partie-1-tp1-3.git"
+app_version: "main"
+app_dir: "/opt/portfolio"
+app_user: "deploy"
+app_port: 3000
+node_major: 22
+server_name: "portfolio.local"

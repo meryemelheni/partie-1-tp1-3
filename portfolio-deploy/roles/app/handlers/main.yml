@@ -1,0 +1,9 @@
+---
+- name: restart app
+  ansible.builtin.command:
+    cmd: pm2 restart portfolio --update-env
+  environment:
+    PORT: "{{ app_port }}"
+  become_user: "{{ app_user }}"
+  # Ne s'exécute pas si le process vient d'être démarré (1er run)
+  when: app_pm2.rc == 0
